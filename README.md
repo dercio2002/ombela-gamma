@@ -44,3 +44,99 @@ O Ombela Market é uma plataforma de marketplace e serviço de entregas que cone
 | Notificações | Alertas por email/SMS | Should Have |
 
 ## Arquitetura
+## Tecnologias
+
+### Backend
+- **Linguagem:** Java 17
+- **Framework:** Spring Boot 3.x
+- **ORM:** Hibernate / JPA
+- **Base de Dados:** MySQL 8.0
+- **Build:** Maven
+
+### Frontend
+- **Framework:** React.js / Vue.js
+- **Styling:** Tailwind CSS
+- **State Management:** Redux / Pinia
+
+### DevOps
+- **Containerização:** Docker
+- **CI/CD:** GitHub Actions
+- **Versionamento:** Git
+
+## Pré-requisitos
+
+- JDK 17+
+- Node.js 18+
+- MySQL 8.0
+- Docker (opcional)
+
+## Instalação
+
+```bash
+# Clonar o repositório
+git clone https://github.com/equipa-gamma/ombela-market.git
+cd ombela-market
+
+# Instalar dependências do backend
+cd backend
+./mvnw clean install
+
+# Instalar dependências do frontend
+cd ../frontend
+npm install
+
+# Executar a aplicação
+docker-compose up -d
+
+## Tecnologias
+
+### Backend
+- **Linguagem:** Java 17
+- **Framework:** Spring Boot 3.x
+- **ORM:** Hibernate / JPA
+- **Base de Dados:** MySQL 8.0
+- **Build:** Maven
+
+### Frontend
+- **Framework:** React.js / Vue.js
+- **Styling:** Tailwind CSS
+- **State Management:** Redux / Pinia
+
+### DevOps
+- **Containerização:** Docker
+- **CI/CD:** GitHub Actions
+- **Versionamento:** Git
+
+## Pré-requisitos
+
+- JDK 17+
+- Node.js 18+
+- MySQL 8.0
+- Docker (opcional)
+
+## Instalação
+
+```bash
+# Clonar o repositório
+git clone https://github.com/equipa-gamma/ombela-market.git
+cd ombela-market
+
+# Instalar dependências do backend
+cd backend
+./mvnw clean install
+
+# Instalar dependências do frontend
+cd ../frontend
+npm install
+
+# Executar a aplicação
+docker-compose up -d
+testes
+# Executar testes unitários
+./mvnw test
+
+# Executar testes de integração
+./mvnw verify
+
+# Ver cobertura de código
+./mvnw jacoco:report
